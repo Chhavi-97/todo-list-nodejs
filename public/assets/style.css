@@ -1,5 +1,9 @@
-body{
-    background: #0d1521;
+
+html{
+  background-color: #f3f3f3;
+  }
+  body{
+    background:#f3f3f3 ;
     font-family: verdana;
     color: #989898;
 }
@@ -7,7 +11,7 @@ body{
 #todo-table{
     position: relative;
     width: 95%;
-    background: #090d13;
+    background: #f9f9f9;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -40,7 +44,7 @@ button{
     color: #fff;
     cursor: pointer;
     font-size: 20px;
-    margin: 0 2px;
+    margin: 0px 0px 0px 7.5px;
 }
 
 ul{
@@ -57,11 +61,13 @@ li{
     font-size: 20px;
     cursor: pointer;
     letter-spacing: 1px;
+    border-bottom: solid grey 1px;
 }
 
 li:hover{
     text-decoration: line-through;
-    background: rgba(0,0,0,0.2);
+    background: #f3f3f3;
+    text-decoration-color: black;
 }
 
 h1{
